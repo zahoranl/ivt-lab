@@ -1,10 +1,6 @@
-<a href="https://travis-ci.org/BME-MIT-IET/MALM-iet-2019" target="_blank">
-<img src="https://travis-ci.org/BME-MIT-IET/MALM-iet-2019.svg?branch=master" alt="Travis build status" />
-</a>
-
-# MALM :octocat:  
+# MALM :octocat: <a href="https://travis-ci.org/BME-MIT-IET/MALM-iet-2019" target="_blank"><img src="https://travis-ci.org/BME-MIT-IET/MALM-iet-2019.svg?branch=master" alt="Travis build status" /> </a>
 [Integration and Verification Techniques](http://www.mit.bme.hu/oktatas/targyak/vimiac04) course homework at BME MIT  
-**Not the original project!**
+**Not the original GnuCash Android repository!**
 
 ## Bevezető, a projekt célja
 A projekt célja a GnuCash nevű Androidos szoftver minőségének javítása különböző eszközökkel. Ezt két fő részben valósítjuk meg.  
@@ -44,6 +40,7 @@ Feladat 2       |                   |                |
  **Original:**
  * Original project: https://github.com/codinguser/gnucash-android
  * Play Store: https://play.google.com/store/apps/details?id=org.gnucash.android&hl=hu
+ * Original README.md below
 </br>
 </br>
 </br>
