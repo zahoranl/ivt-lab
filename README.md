@@ -30,18 +30,19 @@ Task            |   Wiki            |  Issue         |  Branch
 :--------------:|:-----------------:|:--------------:|:-----------:
 Kódlefedettség(Android Studio JUnit, JaCoCo, SonarCloud)       |      [Tesztek kódlefedettség mérése, tesztkészlet bővítése](https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Tesztek-k%C3%B3dlefedetts%C3%A9g%C3%A9nek-m%C3%A9r%C3%A9se-%C3%A9s-ez-alapj%C3%A1n-tesztk%C3%A9szlet-b%C5%91v%C3%ADt%C3%A9se) | [Tesztek kódlefedettségének mérése és reportolás integrálása a CI-ba](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/7)| ✖️ 
 Unit tesztek bővítése | ☝️ | [Kódlefedettség növelése](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/8)|[test/unit](https://github.com/BME-MIT-IET/MALM-iet-2019/commits/test/unit)
-Manuális tesztek |[Manuális tesztek készítése]( https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Manu%C3%A1lis-tesztek-k%C3%A9sz%C3%ADt%C3%A9se)|                | ✖️
+Manuális tesztek |[Manuális tesztek készítése]( https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Manu%C3%A1lis-tesztek-k%C3%A9sz%C3%ADt%C3%A9se)|      ✖️         | ✖️
 
 Coverage        |   Kiindulás         |  Elért         |  Különbözet         
 :--------------:|:-------------------:|:--------------:|:-----------:
-Package, Class  | 19,1%  (74/388)     |                |
-Method          | 28,3%  (583/2 057)  |                | 
-Line            | 26,2% (3 276/12 486)|                | 
+Package, Class  | 19,1%  (74/388)     |	20,6% (80/ 388) | +1,5% (+6/0)
+Method          | 28,3%  (583/2 057)  | 30% (617/ 2057) | +1,7% (+34/0)
+Line            | 26,2% (3 276/12 486)| 28,2% (3526/ 12486) | +2% (+250/0)
 
- *  ✔️ SonarCloud: 
- *  ✔️ Travis CI build passing: 
+ *  ✔️ SonarCloud: [SonarCloud](https://sonarcloud.io/dashboard?id=malm-iet)
+ *  ✔️ Travis CI build passing: https://travis-ci.org/BME-MIT-IET/MALM-iet-2019/branches
  *  ✔️ Merged to master:  2019.05.19. </br>
- * Number of commits by time:![CommitByTime1](https://user-images.githubusercontent.com/25354615/57366672-ca4bce00-7187-11e9-9f24-0d59791b1bcb.PNG)
+ * Number of commits by time:![image](https://user-images.githubusercontent.com/25354615/57989788-53c0a180-7aa0-11e9-8e1a-d71c86dfb5a9.png)
+
  
 </br>
 
