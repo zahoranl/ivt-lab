@@ -6,7 +6,7 @@
 A projekt célja a GnuCash nevű Androidos szoftver minőségének javítása különböző eszközökkel. Ezt két fő részben valósítjuk meg.  
 👦 Matusek Márton - @matusekma   
 👦 Putovits Ábel - @abelptvts  
-👦 Zolty Marcell - @MarcellZoltay  
+👦 Zoltay Marcell - @MarcellZoltay  
 👦 Zahorán László - @zlacigit
 
 ## Első feladatcsoport
@@ -21,19 +21,27 @@ SonarQube    | [Statikus analízis SonarQube eszközzel](https://github.com/BME-
 
   * ✔️ Travis CI build passing: https://travis-ci.org/BME-MIT-IET/MALM-iet-2019/builds/528561407
   * ✔️ Merged to master:  2018.05.05. </br>
-  * Number of commits by time:<img src="https://raw.githubusercontent.com/BME-MIT-IET/MALM-iet-2019/master/CommitByTime1.PNG" width="702" height="155" />
-
+  * Number of commits by time:![CommitByTime1](https://user-images.githubusercontent.com/25354615/57366672-ca4bce00-7187-11e9-9f24-0d59791b1bcb.PNG)
 ## Második feladatcsoport
 
 A projekt második felében egységtesztek készítésével és kiegészítésével foglalkozunk a tesztek kódlefedettségének vizsgálatával párhuzamosan.
 
 Task            |   Wiki            |  Issue         |  Branch         
 :--------------:|:-----------------:|:--------------:|:-----------:
-Feladat 1       |                   |                |
-Feladat 2       |                   |                | 
- 
- *  ❌ Travis CI build passing: 
- *  ❌ Merged to master:  Deadline: 2019.05.19. </br>
+Kódlefedettség(Android Studio JUnit, JaCoCo, SonarCloud)       |      [Tesztek kódlefedettség mérése, tesztkészlet bővítése](https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Tesztek-k%C3%B3dlefedetts%C3%A9g%C3%A9nek-m%C3%A9r%C3%A9se-%C3%A9s-ez-alapj%C3%A1n-tesztk%C3%A9szlet-b%C5%91v%C3%ADt%C3%A9se) | [Tesztek kódlefedettségének mérése és reportolás integrálása a CI-ba](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/7)| ✖️ 
+Unit tesztek bővítése | ☝️ | [Kódlefedettség növelése](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/8)|[test/unit](https://github.com/BME-MIT-IET/MALM-iet-2019/commits/test/unit)
+Manuális tesztek |[Manuális tesztek készítése]( https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Manu%C3%A1lis-tesztek-k%C3%A9sz%C3%ADt%C3%A9se)|                | ✖️
+
+Coverage        |   Kiindulás         |  Elért         |  Különbözet         
+:--------------:|:-------------------:|:--------------:|:-----------:
+Package, Class  | 19,1%  (74/388)     |                |
+Method          | 28,3%  (583/2 057)  |                | 
+Line            | 26,2% (3 276/12 486)|                | 
+
+ *  ✔️ SonarCloud: 
+ *  ✔️ Travis CI build passing: 
+ *  ✔️ Merged to master:  2019.05.19. </br>
+ * Number of commits by time:![CommitByTime1](https://user-images.githubusercontent.com/25354615/57366672-ca4bce00-7187-11e9-9f24-0d59791b1bcb.PNG)
  
 </br>
 
@@ -156,43 +164,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-# IVT Spaceship
-
-This is a sample application for the [Integration and Verification Techniques](http://www.mit.bme.hu/oktatas/targyak/vimiac04) course at BME MIT.
-
-The application is simplified and deliberately contains bugs.
-
-## Getting started
-
-- The project is implemented in Java 8.
-- The project can be built using [Maven](https://maven.apache.org/).
-- [JUnit](http://junit.org/junit4/) is used for tests, and [Mockito](http://site.mockito.org/) for isolating dependencies.
-
-Clone the repository and execute Maven to build the application:
-
-```
-mvn compile
-```
-
-To compile and run tests also execute:
-
-```
-mvn test
-```
-
-(That will be enough to know for the current exercises. If you are more interested, see [this](https://github.com/FTSRG/swsv-labs/wiki/0b-Build-tools) short guide about Maven.)
-
-As this is a really simple project, you can use the command-line build tool and a light-weight IDE like the [Atom](https://atom.io/) editor. Just be sure to enable collapsing directories (_File / Settings / Packages / tree-view / Collapse directories_).
-
-## Overview++EditedBy Branch-A;++EditedBy Branch-B Conflict Solved
-
-The project represents an alpha version of a spaceship.
-
-- The ship (`SpaceShip` interface) can fire one or more lasers or torpedos.
-- We have only one spaceship as of now (`GT4500`).
-- Currently two firing modes (`FiringMode`) are supported: firing only one or all instances of a given weapon type.
-- Lasers are not yet implemented, but the code for torpedo stores are ready (`TorpedoStore`).
-- For the GT4500 ship the rules for firing torpedoes can be found in the Javadoc comment of method `fireTorpedos`. They are already partially implemented.
-- There are currently two tests (`GT4500Test`), but be aware that they are not proper unit tests, as they do not isolate the dependencies of the tested class.
-++EditByMe
