@@ -28,7 +28,7 @@ A projekt második felében egységtesztek készítésével és kiegészítésé
 
 Task            |   Wiki            |  Issue         |  Branch         
 :--------------:|:-----------------:|:--------------:|:-----------:
-Kódlefedettség(Android Studio JUnit, JaCoCo, SonarCloud)       |      [Tesztek kódlefedettség mérése, tesztkészlet bővítése](https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Tesztek-k%C3%B3dlefedetts%C3%A9g%C3%A9nek-m%C3%A9r%C3%A9se-%C3%A9s-ez-alapj%C3%A1n-tesztk%C3%A9szlet-b%C5%91v%C3%ADt%C3%A9se) | [Tesztek kódlefedettségének mérése és reportolás integrálása a CI-ba](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/7)| ✖️ 
+Kódlefedettség(Android Studio JUnit, JaCoCo, SonarCloud)       |      [Tesztek kódlefedettség mérése, tesztkészlet bővítése](https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Tesztek-k%C3%B3dlefedetts%C3%A9g%C3%A9nek-m%C3%A9r%C3%A9se-%C3%A9s-ez-alapj%C3%A1n-tesztk%C3%A9szlet-b%C5%91v%C3%ADt%C3%A9se) | [Tesztek kódlefedettségének mérése és reportolás integrálása a CI-ba](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/7)| ✖️ [Commit](https://github.com/BME-MIT-IET/MALM-iet-2019/commit/2c9227f6a66637365be774f67ce053f8c27e4d65)
 Unit tesztek bővítése | ☝️ | [Kódlefedettség növelése](https://github.com/BME-MIT-IET/MALM-iet-2019/issues/8)|[test/unit](https://github.com/BME-MIT-IET/MALM-iet-2019/commits/test/unit)
 Manuális tesztek |[Manuális tesztek készítése]( https://github.com/BME-MIT-IET/MALM-iet-2019/wiki/Manu%C3%A1lis-tesztek-k%C3%A9sz%C3%ADt%C3%A9se)|      ✖️         | ✖️
 
